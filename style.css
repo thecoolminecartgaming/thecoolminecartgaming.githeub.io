@@ -1,63 +1,94 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-html, body {
-	height: 100%;
-	width: 100%;
-}
-
 body {
-	align-items: center;
-  background-color: #FFF;
-	display: flex;
-	font-family: 'Raleway', sans-serif;
-	flex-direction: column;
-	justify-content: center;
-	overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #1E1E24;
+  text-align: center;
 }
 
-div.container {
-	align-items: center;
-	align-self: center;
-	background: url('https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-1/01/background.jpg') center center;
-	border-radius: 100%;
-	display: flex;
-	flex-direction: column;
-	min-height: 800px;
-	justify-content: center;
-	width: 800px;
+.jumbotron {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_singaporeskyline.jpeg");
+  height: 400px;
+  background-position: bottom center;
 }
 
 h1 {
-  color: #fff;
-  font-family: 'Playfair Display', serif;
-  font-size: 52px;
+  color: #FFF;
+  font-family: 'Ruda', sans-serif;
+  font-size: 70px;
   font-weight: 900;
-  line-height: 46px;
-  margin: 0 0 60px 0;
+  margin: 0;
+  padding-top: 120px;
   text-align: center;
-  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
-  width: 50%;
+  text-transform: uppercase;
 }
 
-a.btn {
-	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
-	border-radius: 2px;
-	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
-  color: #fff;
-  font-size: 18px;
-  letter-spacing: 1px;
-  padding: 16px 32px;
+h2 {
+  color: #FFF;
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+  text-align: left;
+}
+
+h3 {
+  color: #D7263D;
+  font-family: 'Ruda', sans-serif;
+  font-size: 32px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Pontano Sans', sans-serif;
+  margin: 0;
+  text-align: left;
+}
+
+.hotel {
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 90%;
+  border-style:solid;
+  border-top-width:5px;
+  border: 2px solid #FFF;
+  border-radius:10px;
+}
+
+.hotel-img {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.hotel-description {
+  display: inline-block;
+  width: 70%;
+}
+
+.book {
+  margin-top: 30px;
+  width: 100%;
+}
+
+a {
+  background-color: #D7263D;
+  color: #FFF;
+  display: block;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 16px;
+  padding: 14px;
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: box-shadow 1s ease;
-	transition: box-shadow 1s ease;
 }
 
-a.btn:hover {
-	box-shadow: 0px 4px 4px rgba(34,62,66,.5);
-	-webkit-transition: box-shadow 1s ease;
-	transition: box-shadow 1s ease;
+ul {
+  padding: 0;
+  margin: 10px 0px;
+}
+
+li {
+  margin: 0;
+  list-style: none;
 }
